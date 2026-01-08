@@ -2,9 +2,6 @@
 
 A modern, full-stack social networking platform built with Next.js, React, Firebase, MongoDB, and Express.js. This application provides essential LinkedIn-like features including user authentication, profile management, and a social feed for sharing posts.
 
-## 🌟 Live Demo
-
-Experience the platform: [Mini-Linkedin-Platform](https://mini-linkedin-platform.vercel.app/)
 
 ## 📸 Screenshots
 
@@ -91,27 +88,13 @@ Experience the platform: [Mini-Linkedin-Platform](https://mini-linkedin-platform
 - MongoDB (local installation or MongoDB Atlas)
 - Firebase project setup
 
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd mini-linkedin-platform
-```
 
-### 2. Install Dependencies
-```bash
-# Install frontend dependencies
-npm install
 
-# Install backend dependencies
-npm run server:install
-```
-
-### 3. Environment Configuration
 
 #### Frontend Environment
 Create a `.env.local` file in the root directory:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+
 NEXT_PUBLIC_FIREBASE_API_KEY=your-firebase-api-key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
@@ -128,7 +111,7 @@ PORT=5000
 ```
 
 ### 4. Firebase Setup
-1. Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+
 2. Enable Authentication with Email/Password provider
 3. Get your Firebase configuration from Project Settings
 4. Update the environment variables with your Firebase config
@@ -157,9 +140,7 @@ npm run build
 npm start
 ```
 
-### 7. Access the Application
-- Frontend: [http://localhost:3000](http://localhost:3000)
-- Backend API: [http://localhost:5000](http://localhost:5000)
+
 
 ## Project Structure
 
@@ -345,18 +326,11 @@ mini-linkedin-platform/
 - **Testing** - Unit and integration tests
 - **Analytics** - User engagement tracking
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License - 
 ## 🙏 Acknowledgments
 
 - Next.js team for the amazing framework
